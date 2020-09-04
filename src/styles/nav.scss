@@ -21,10 +21,12 @@
     @include fontStyleNormal(14px);
 
     color: #000;
-  }
 
-  &__link:hover {
-    color: $colorLightBlue;
+    transition: color 0.5s;
+
+    &:hover {
+      color: $colorLightBlue;
+    }
   }
 }
 
