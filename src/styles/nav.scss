@@ -17,7 +17,6 @@
     padding: 23px 0;
 
     text-transform: uppercase;
-
     @include fontStyleNormal(14px);
 
     color: #000;
@@ -30,7 +29,8 @@
   }
 }
 
-.is-active {
+
+.nav__link--is-active {
   color: $colorLightBlue;
 
   &::after {
